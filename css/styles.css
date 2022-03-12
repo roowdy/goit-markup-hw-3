@@ -30,8 +30,18 @@ body {
   color: #2196f3;
 }
 
+.main-menu,
+.contacts-list,
 .navigation-list {
   display: flex;
+}
+
+.navigation {
+  align-items: center;
+}
+
+.main-menu {
+  margin-top: 24px;
 }
 
 .link {
