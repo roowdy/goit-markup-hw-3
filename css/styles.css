@@ -9,6 +9,13 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 p,
@@ -155,13 +162,12 @@ img {
 }
 
 /* -------- ADVANTAGE SECTION ----------- */
-.advantages-title {
-  display: none;
+.advantages {
+  padding-bottom: 0;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.advantages-title {
+  display: none;
 }
 
 .advantages-list {
