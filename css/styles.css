@@ -214,7 +214,6 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
   text-align: center;
   margin-top: 50px;
 }
@@ -232,7 +231,6 @@ img {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  padding-top: 30px;
 }
 
 .team-profession {
@@ -241,15 +239,20 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 
 .team-list-item {
+  margin-right: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
+}
+
+.team-list-item-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------------FOOTER---------------- */
@@ -292,6 +295,7 @@ img {
 /* -------------PORTFOLIO---------------- */
 .works-button-list {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .works-button-list-item {
@@ -325,14 +329,14 @@ img {
 }
 
 .works-list {
-  margin-top: 34px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .work-name-type {
-  padding: 24px 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 
@@ -353,5 +357,7 @@ img {
 .work-item {
   box-sizing: border-box;
   width: 370px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
